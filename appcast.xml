@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>StockBar</title>
+        <item>
+            <title>1.1.2</title>
+            <pubDate>Sun, 30 Aug 2026 07:29:05 +0800</pubDate>
+            <link>https://github.com/hxfxjun/stockbar-releases/releases/tag/v1.1.2</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[### 新增
+
+- 集成 Sparkle 2，支持在应用内检查、下载并安装在线更新。
+- 更新安装时自动退出 StockBar、替换应用，并在完成后重新启动。
+- “关于 StockBar”页面新增自动检查与自动下载安装开关。
+
+### 安全与发布
+
+- 更新包和 appcast 使用 Ed25519 签名验证，私钥仅保存在发布电脑钥匙串中。
+- 发布流程自动生成并上传签名后的 appcast.xml。
+- 修正 DMG 的组件签名方式，保留 Sparkle 安装器所需权限。
+]]></description>
+            <enclosure url="https://github.com/hxfxjun/stockbar-releases/releases/download/v1.1.2/StockBar-1.1.2.dmg" length="3897269" type="application/octet-stream" sparkle:edSignature="zz1xPiv1QAD0B66ve0nHahtu0BezlJl1vZBBPx0JCv3wdpKm4bWTsDyV+9hEZbd7/TwtjLrq9mxQ02UBlJumCA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: g8rSaGc/MTMfCB2vttAE/DQYNSi5/ArioZopThrVd64E9NTDMSl+XJ+aZipoeIS58o/jbmvVxfPtKC2/rcbCBw==
+length: 1734
+-->
