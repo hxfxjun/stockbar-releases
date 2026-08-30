@@ -4,28 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>StockBar</title>
         <item>
-            <title>1.1.4</title>
-            <pubDate>Sun, 30 Aug 2026 21:35:42 +0800</pubDate>
-            <link>https://github.com/hxfxjun/stockbar-releases/releases/tag/v1.1.4</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <title>1.1.5</title>
+            <pubDate>Sun, 30 Aug 2026 21:53:40 +0800</pubDate>
+            <link>https://github.com/hxfxjun/stockbar-releases/releases/tag/v1.1.5</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[### 新增
-- 配置窗口分为“自选品种 / 显示与刷新 / 软件更新”三个 tab；各市场和自定义分类也可用标签快速切换。
-- 添加或编辑品种时，支持输入代码、名称或拼音在线检索，选择候选自动补全交易市场、行情代码和显示名称。
-- 搜索支持方向键选择和回车补全；保留已有自选与内置品种作为本地候选，网络不可用时仍可手动填写。
 
-### 优化与修复
-- 重设计分类卡片、品种列表和设置页面，加入菜单栏涨跌颜色静态预览，配置页不随行情实时刷新。
-- 新增分类后自动选中，删除品种需要确认；已有品种仍可修改名称、市场、代码和价格精度。
-- 搜索请求防抖并丢弃过时结果，避免快速输入时旧结果覆盖新结果；仅显示当前支持市场的候选。
-- 修复港股空白代码被补成 00000 的边界问题，增加 16 项代码搜索及异步状态回归测试。
-- 保留 1.1.3 的社区版 Sparkle 兼容修复与签名验证更新流程。本版未经 Apple 公证，首次安装可能需在“系统设置 → 隐私与安全性”选择“仍要打开”。
+- “显示与刷新”新增界面外观设置：跟随系统、浅色、深色，立即应用于 StockBar 窗口、行情弹窗和编辑页面，不修改 macOS 系统外观。
+- 新增“涨跌幅显示百分号（%）”开关，同时控制菜单栏和行情弹窗；关闭仅隐藏符号，例如 -1.12% 显示为 -1.12，不改变数值和涨跌颜色。
+- 两项偏好自动保存，重启后恢复；默认跟随系统并显示百分号，已有自选和其他配置保持不变。
+
+### 优化与验证
+
+- 统一菜单栏、行情弹窗与设置预览的涨跌幅格式，预览实时反映百分号开关。
+- 隐藏百分号后，行情弹窗的悬浮提示与辅助功能朗读仍保留百分比含义。
+- 新增 10 项外观映射、偏好持久化和显示格式回归测试；共 29 项单元测试通过。
+- 保留社区版 Sparkle 兼容修复与签名验证更新流程。本版未经 Apple 公证，首次安装可能需在“系统设置 → 隐私与安全性”选择“仍要打开”。
 ]]></description>
-            <enclosure url="https://github.com/hxfxjun/stockbar-releases/releases/download/v1.1.4/StockBar-1.1.4.dmg" length="4269293" type="application/octet-stream" sparkle:edSignature="gyUIGOmmUPBCXdHxLU+Q4B0gE0MJohoqFRIsnxqfCMy8RVaDdUcgn0AlGmxYYiNI2wn4iRHWMo30gFzr34ziBw=="></enclosure>
+            <enclosure url="https://github.com/hxfxjun/stockbar-releases/releases/download/v1.1.5/StockBar-1.1.5.dmg" length="4311598" type="application/octet-stream" sparkle:edSignature="0zrO/5DstLfB24qzYvofaAYXbTsEbhxMzQ/P8C9eDHp634VSVtXSyp1SkhrAfpD8IxO1FM85K4J+q4NA6Su9DA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: p9d8TlDqee7BJIiSfHZ1U0m5zhlFOL0UIYSALUhTVnvurau0chqPU5dbcmFrOX5+Qnmqb6Hsp8V7ESJAvX02Dw==
-length: 2390
+edSignature: Wb7oW2lTyU2B0vS82TjhF/k6+PllNszzZW6CKgmxFm/5dagWqc+Xl7SkWIYkflhCPmCH2BUvFjpJyYxMlwJ5BA==
+length: 2242
 -->
