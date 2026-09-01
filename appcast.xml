@@ -4,29 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>StockBar</title>
         <item>
-            <title>1.1.5</title>
-            <pubDate>Sun, 30 Aug 2026 21:53:40 +0800</pubDate>
-            <link>https://github.com/hxfxjun/stockbar-releases/releases/tag/v1.1.5</link>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <title>1.1.6</title>
+            <pubDate>Tue, 01 Sep 2026 22:24:56 +0800</pubDate>
+            <link>https://github.com/hxfxjun/stockbar-releases/releases/tag/v1.1.6</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[### 新增
 
-- “显示与刷新”新增界面外观设置：跟随系统、浅色、深色，立即应用于 StockBar 窗口、行情弹窗和编辑页面，不修改 macOS 系统外观。
-- 新增“涨跌幅显示百分号（%）”开关，同时控制菜单栏和行情弹窗；关闭仅隐藏符号，例如 -1.12% 显示为 -1.12，不改变数值和涨跌颜色。
-- 两项偏好自动保存，重启后恢复；默认跟随系统并显示百分号，已有自选和其他配置保持不变。
+- “显示与刷新”新增“菜单栏状态图标”设置，可分别配置原 Stop 和 Loading… 两种状态的显示。
+- Stop 提供原文字、停止方块、实心方块、休眠、短横线 5 个预设；Loading 提供原文字、刷新箭头、空心圆、省略号、半圆进度 5 个预设。
+- 选择即时反映在预览和菜单栏并自动保存；升级后默认保持原来的 Stop 与 Loading… 文字，不改变既有显示习惯。
 
 ### 优化与验证
 
-- 统一菜单栏、行情弹窗与设置预览的涨跌幅格式，预览实时反映百分号开关。
-- 隐藏百分号后，行情弹窗的悬浮提示与辅助功能朗读仍保留百分比含义。
-- 新增 10 项外观映射、偏好持久化和显示格式回归测试；共 29 项单元测试通过。
+- 状态图标仅在暂时没有行情值时显示，不影响正常股票价格、涨跌幅、颜色和百分号设置。
+- 无效或旧版本无法识别的图标配置会安全回退到原文字。
+- 增加状态图标数量、选择逻辑、持久化和配置兼容性测试；共 32 项单元测试通过。
 - 保留社区版 Sparkle 兼容修复与签名验证更新流程。本版未经 Apple 公证，首次安装可能需在“系统设置 → 隐私与安全性”选择“仍要打开”。
 ]]></description>
-            <enclosure url="https://github.com/hxfxjun/stockbar-releases/releases/download/v1.1.5/StockBar-1.1.5.dmg" length="4311598" type="application/octet-stream" sparkle:edSignature="0zrO/5DstLfB24qzYvofaAYXbTsEbhxMzQ/P8C9eDHp634VSVtXSyp1SkhrAfpD8IxO1FM85K4J+q4NA6Su9DA=="></enclosure>
+            <enclosure url="https://github.com/hxfxjun/stockbar-releases/releases/download/v1.1.6/StockBar-1.1.6.dmg" length="4369888" type="application/octet-stream" sparkle:edSignature="A1ejNi0/6m1KgiQOL9x51C1SP8nXqX0b+zhyDV9JcIoKFzrqTN4+hsjNpjX40wn4DOON4hRVuodgHtbExFLVDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Wb7oW2lTyU2B0vS82TjhF/k6+PllNszzZW6CKgmxFm/5dagWqc+Xl7SkWIYkflhCPmCH2BUvFjpJyYxMlwJ5BA==
-length: 2242
+edSignature: 10wnwhgs6OwzxZZpN/dKeKsZSXoMH4vShYZqEMi6j43FOkufRu6MwXYeZp53BceIo4XS5arBZ6/fnPFjPLkUAA==
+length: 2213
 -->
