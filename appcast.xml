@@ -4,29 +4,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>StockBar</title>
         <item>
-            <title>1.1.6</title>
-            <pubDate>Tue, 01 Sep 2026 22:24:56 +0800</pubDate>
-            <link>https://github.com/hxfxjun/stockbar-releases/releases/tag/v1.1.6</link>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <title>1.1.7</title>
+            <pubDate>Wed, 30 Sep 2026 22:31:36 +0800</pubDate>
+            <link>https://github.com/hxfxjun/stockbar-releases/releases/tag/v1.1.7</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[### 新增
+            <description sparkle:format="markdown"><![CDATA[- 构建、安装及发布检查使用 macOS 自带的 grep，不再要求额外安装 ripgrep。
+- 默认通过富途 OpenD 获取沪深、港股和美股快照；在“显示与刷新”配置行情来源、地址和端口，支持连接测试。
+- 保留东方财富 / 新浪公开行情作为可选来源；连接或权限失败显示错误并清除旧报价。
+- 使用原生 Swift 连接 OpenD，无需 Python、Conda 或 futu-api。
+- DMG 包含完整 OpenD 应用及其内嵌依赖、StockBar 和 Sparkle，验证依赖与签名，不复制用户账号或配置。OpenD 位于“依赖组件”文件夹，以兼容自动更新。
+- 发布工具支持直接发布已增加版本号的当前版本，避免重复升版。
+- 添加配置保存、代码映射、快照解析、分段协议回复、连接测试和权限失败的自动化测试。
 
-- “显示与刷新”新增“菜单栏状态图标”设置，可分别配置原 Stop 和 Loading… 两种状态的显示。
-- Stop 提供原文字、停止方块、实心方块、休眠、短横线 5 个预设；Loading 提供原文字、刷新箭头、空心圆、省略号、半圆进度 5 个预设。
-- 选择即时反映在预览和菜单栏并自动保存；升级后默认保持原来的 Stop 与 Loading… 文字，不改变既有显示习惯。
-
-### 优化与验证
-
-- 状态图标仅在暂时没有行情值时显示，不影响正常股票价格、涨跌幅、颜色和百分号设置。
-- 无效或旧版本无法识别的图标配置会安全回退到原文字。
-- 增加状态图标数量、选择逻辑、持久化和配置兼容性测试；共 32 项单元测试通过。
-- 保留社区版 Sparkle 兼容修复与签名验证更新流程。本版未经 Apple 公证，首次安装可能需在“系统设置 → 隐私与安全性”选择“仍要打开”。
+使用 OpenD 时，请下载完整 DMG，把“依赖组件”中的 Futu_OpenD.app 安装到应用程序并登录自己的富途账户。自动更新仅替换 StockBar。OpenD 当前支持沪深、港股和美股；其他品种可切换公开行情。
 ]]></description>
-            <enclosure url="https://github.com/hxfxjun/stockbar-releases/releases/download/v1.1.6/StockBar-1.1.6.dmg" length="4369888" type="application/octet-stream" sparkle:edSignature="A1ejNi0/6m1KgiQOL9x51C1SP8nXqX0b+zhyDV9JcIoKFzrqTN4+hsjNpjX40wn4DOON4hRVuodgHtbExFLVDQ=="></enclosure>
+            <enclosure url="https://github.com/hxfxjun/stockbar-releases/releases/download/v1.1.7/StockBar-1.1.7.dmg" length="366968545" type="application/octet-stream" sparkle:edSignature="jxQPg4Q6zHqzg9usKHBZk14ixHAqEDH28xjhhhEpMWrdFsZHLJtfzeo8Z85yCYlDSMTY2iwv7i1TeWCbVzajBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 10wnwhgs6OwzxZZpN/dKeKsZSXoMH4vShYZqEMi6j43FOkufRu6MwXYeZp53BceIo4XS5arBZ6/fnPFjPLkUAA==
-length: 2213
+edSignature: X1bjmc4KVAy/WC9bJHIUSB/1FnSgVDMwqtP5GZxeIbAK7vFanB9gS2GeGQsxGBD0VgCul8pHUqNFT5+vg9jhAw==
+length: 2325
 -->
