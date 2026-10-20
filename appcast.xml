@@ -4,24 +4,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>StockBar</title>
         <item>
-            <title>1.1.8</title>
-            <pubDate>Fri, 16 Oct 2026 13:52:39 +0800</pubDate>
-            <link>https://github.com/hxfxjun/stockbar-releases/releases/tag/v1.1.8</link>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <title>1.1.9</title>
+            <pubDate>Tue, 20 Oct 2026 15:55:22 +0800</pubDate>
+            <link>https://github.com/hxfxjun/stockbar-releases/releases/tag/v1.1.9</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- 国内期货支持逐项切换“指定合约 / 主力合约”，也可一键将所有分类的国内期货（含未启用）切为主力或恢复指定合约，不影响股票和外盘。
-- 主力按真实月份合约的持仓量识别，同量时按成交量择优；每次刷新自动跟随换月，显示实际代码并保留原指定合约与自选属性。缺少有效数据时显示错误，不回退到旧月份或主连续。
-- 国内期货新增可独立配置的 AkShare 行情来源，股票可同时保留 OpenD；来源选择自动保存并兼容旧配置。
-- 新增上海能源中心、中金所和广期所市场选项，支持已映射品种的月份合约及主连续，郑商所三位月份代码自动适配。
-- 国内期货涨跌幅按昨结算价计算，保留上游报价时间；请求按品种合并、限制超时，单个合约失败不影响其他行情。
-- StockBar 内置 Intel / Apple Silicon Python 3.12、AkShare 与全部锁定依赖，随 DMG 和自动更新一起分发，无需用户安装开发环境。
-- 增加环境检查、沙盒内实际组件加载检查及配置迁移、行情转换和错误处理测试。
+            <description sparkle:format="markdown"><![CDATA[- 国际期货与贵金属新增独立行情来源配置，默认直连新浪，可与 OpenD 股票和 AkShare 国内期货同时使用，修复国际品种因 OpenD 无代码映射而无法报价的问题。
+- 兼容已有黄金、白银和布伦特原油自选代码，支持新浪 XAU、XAG、CL、OIL、GC、SI 等国际品种；保留自选设置，也可切回原东方财富 / 新浪公开行情。
+- 新浪行情批量请求并按代码匹配，正确解码中文名称，按昨结算价计算涨跌幅并保留上游北京时间；缺失、无效报价逐项显示错误。
+- 增加配置迁移、来源独立持久化、代码映射、响应乱序与部分失败等回归测试，以及实际签名应用的国际行情联网验证。
 ]]></description>
-            <enclosure url="https://github.com/hxfxjun/stockbar-releases/releases/download/v1.1.8/StockBar-1.1.8.dmg" length="622669906" type="application/octet-stream" sparkle:edSignature="f7zOF+Lw2IxLywJSrEnf/InBdsIDqYLNFXBcm5stkJr/+1l7IYgLZUWpgSqcimdBDtTDn/CyqUtsq5uEgagsAw=="></enclosure>
+            <enclosure url="https://github.com/hxfxjun/stockbar-releases/releases/download/v1.1.9/StockBar-1.1.9.dmg" length="617678835" type="application/octet-stream" sparkle:edSignature="U3vgF1Io0B9epn5JqQ2srDdN3xKJj8UXTU79C+l5sN8lt+MNWeyAY4hVaH7nyzTpkR9cRWeaEgk/EsZb48oUDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DGevwm7eO2qjo2xM9lVMQC+ZZlpKV/Ra/qw60gUtMNiHvlpRumJZ6S8tVPJqE95R2yGcM8pthx4QDF3YdGbACg==
-length: 2380
+edSignature: 7RQCKOrpoiMwhEMksv3dHOOaSEM65MRovmrbT/7begm444ZM0gGk7aAQKm1lmM7a7JC14fIoxbVuna/EE9B2BQ==
+length: 1965
 -->
